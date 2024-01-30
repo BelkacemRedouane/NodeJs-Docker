@@ -29,5 +29,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/nodejs-todo:${{ github.run_number }}
+        tags: ghcr.io/belkacemredouane/nodejs-todo:${{ github.run_number }}
 
